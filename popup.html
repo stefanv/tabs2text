@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>tabs2text</title>
+    <style>
+      body { width: 300px; padding: 10px; }
+      select, button { margin-top: 10px; }
+    </style>
+  </head>
+  <body>
+    <h2>Tab Exporter</h2>
+
+    <p>
+      <label for="format">Format:</label>
+      <select id="format">
+        <option value="markdown">Markdown</option>
+        <option value="org">Org</option>
+      </select>
+    </p>
+
+    <p>
+      <label for='maxTitleLength'>Max Title Length:</label>
+      <input type='number' id='maxTitleLength' min='10' value='80' />
+    </p>
+
+    <p>
+      <button id="export">Export Tabs</button>
+    </p>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
