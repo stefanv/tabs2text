@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "tabs2text",
+  "description": "Export list of open tabs as markdown / org text",
+  "version": "0.2",
+  "permissions": ["tabs", "downloads"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": ["service-worker.js"]
+  }
+}
