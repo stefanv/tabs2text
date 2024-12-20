@@ -1,4 +1,4 @@
-# tabs2text: a Chrome / Chromium extensions
+# tabs2text: a Chrome & Firefox extension
 
 ## Export a list of tabs in markdown / org format
 
